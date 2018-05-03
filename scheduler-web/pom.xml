@@ -116,13 +116,7 @@
 			<version>2.6</version>
 		</dependency>
 		
-		<dependency>
-       		<groupId>com.oracle.weblogic</groupId>
-       		<artifactId>weblogic-server-pom</artifactId>
-       		<version>12.1.2-0-0</version>
-       		<type>pom</type>
-       		<scope>provided</scope>
-      </dependency>
+
 
 	</dependencies>
 
@@ -192,11 +186,11 @@
 			<id>deploy-wls</id>
 			<build>
 				<plugins> 
-					<plugin> 
+					<plugin>
 						<groupId>com.oracle.weblogic</groupId>
-						<artifactId>weblogic-maven-plugin</artifactId> 
-						<version>12.1.2-0-0</version> 
-						<configuration> 
+						<artifactId>weblogic-maven-plugin</artifactId>
+						<version>12.1.2-0-0</version>
+						<configuration>
 							<adminurl>t3://localhost:7001</adminurl>
 							<user>weblogic</user> 
 							<password>weblogic123</password> 

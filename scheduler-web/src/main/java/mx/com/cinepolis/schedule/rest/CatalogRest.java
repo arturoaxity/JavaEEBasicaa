@@ -9,10 +9,8 @@ import java.util.List;
 import javax.ejb.EJB;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.GenericEntity;
-import javax.ws.rs.core.Response;
+import javax.ws.rs.core.*;
 
 /**
  * @author jrodriguez
@@ -33,7 +31,7 @@ public class CatalogRest {
         return Response.ok().entity(userTO).build();
     }
     
-    @GET
+    /*@GET
     @Produces("application/json")
     @Path("/country/{pais}")
     public Response getEstados(@PathParam("pais") String pais) {
@@ -42,7 +40,21 @@ public class CatalogRest {
     	GenericEntity<List<CatalogsTO>> entity = new GenericEntity<List<CatalogsTO>>(catalogsTOLits) {};
                 
     	return Response.ok().entity(entity).build();
+    }*/
+
+
+
+    @GET
+    @Produces("application/json")
+    @Path("/country")
+    public Response getEstados(@Context UriInfo ui) {
+        MultivaluedMap<String,String> queryParam = ui.getQueryParameters();
+        String pais = queryParam.getFirst("pais");
+        List<CatalogsTO> catalogsTOLits =  catalogFacadeEJB.getEstadosList(pais);
+
+        GenericEntity<List<CatalogsTO>> entity = new GenericEntity<List<CatalogsTO>>(catalogsTOLits) {};
+
+        return Response.ok().entity(entity).build();
     }
-    
 
 }
