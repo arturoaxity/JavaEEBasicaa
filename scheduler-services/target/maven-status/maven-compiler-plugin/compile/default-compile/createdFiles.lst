@@ -8,6 +8,7 @@ mx\com\cinepolis\scheduler\service\impl\CatalogServiceImpl$3.class
 mx\com\cinepolis\scheduler\service\impl\CatalogServiceImpl$6.class
 mx\com\cinepolis\scheduler\service\impl\CatalogServiceImpl$4.class
 mx\com\cinepolis\scheduler\facade\AngularRegisterFacadeEJB.class
+mx\com\cinepolis\scheduler\service\impl\CatalogServiceImpl$7.class
 mx\com\cinepolis\scheduler\service\impl\AngularServiceRegisterImpl.class
 mx\com\cinepolis\scheduler\service\impl\CatalogServiceImpl.class
 mx\com\cinepolis\scheduler\service\impl\CatalogServiceImpl$1.class

@@ -23,4 +23,9 @@ public interface CatalogService {
      */
     List<CatalogsTO> getEstados(String pais);
 
+    List<UserTO> getAllUser();
+
+    UserTO addUser(UserTO userTO);
+
+    boolean getAddUser(Long id);
 }

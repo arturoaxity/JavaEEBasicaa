@@ -1,75 +1,72 @@
 package mx.com.cinepolis.scheduler.commons.to;
 
+import java.io.Serializable;
+
 /**
  * @author ohurtado
  */
 
-public class UserTO {
+public class UserTO implements Serializable {
 
 
     private static final long serialVersionUID = -8853482566070472169L;
 
     private Long idUser;
-
+    private String login;
+    private String avatar_url;
     private String name;
+    private int followers;
+    private int following;
 
-    private String userName;
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
-    private String email;
-
-    /**
-     * @return
-     */
     public Long getIdUser() {
         return idUser;
     }
 
-    /**
-     * @param idUser
-     */
     public void setIdUser(Long idUser) {
         this.idUser = idUser;
     }
 
-    /**
-     * @return
-     */
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getAvatar_url() {
+        return avatar_url;
+    }
+
+    public void setAvatar_url(String avatar_url) {
+        this.avatar_url = avatar_url;
+    }
+
     public String getName() {
         return name;
     }
 
-    /**
-     * @param name
-     */
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * @return
-     */
-    public String getUserName() {
-        return userName;
+    public int getFollowers() {
+        return followers;
     }
 
-    /**
-     * @param userName
-     */
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setFollowers(int followers) {
+        this.followers = followers;
     }
 
-    /**
-     * @return
-     */
-    public String getEmail() {
-        return email;
+    public int getFollowing() {
+        return following;
     }
 
-    /**
-     * @param email
-     */
-    public void setEmail(String email) {
-        this.email = email;
+    public void setFollowing(int following) {
+        this.following = following;
     }
 }
