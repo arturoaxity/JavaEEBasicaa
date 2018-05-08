@@ -20,4 +20,6 @@ public class Constants {
     public static final int EXP_MINUTES = 30;
     public static final String AXITY = "axity";
     public static final String ANALITICA_URL = "ANALITICA_URL";
+
+    public static final String COLUMNA_USUARIO = "usuario";
 }

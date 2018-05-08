@@ -5,6 +5,8 @@
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <jta-data-source>jdbc/scheduleDS</jta-data-source>
         <class>mx.com.arquitectura.base.model.UserDO</class>
+        <class>mx.com.arquitectura.base.model.PermisosDO</class>
+        <class>mx.com.arquitectura.base.model.UserEmpleadoDO</class>
 
         <properties>
             <property name="eclipselink.logging.level" value="FINE" />

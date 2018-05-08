@@ -1,8 +1,12 @@
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\DAOError.java
+C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\PermisosDAO.java
+C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\dao\impl\UserEmpledoDAOImpl.java
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\constants\Constants.java
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\dao\UserDAO.java
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\EntityManagerProvider.java
+C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\UserEmpleadoDAO.java
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\impl\BaseDAOImpl.java
+C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\dao\impl\PermisoDAOImpl.java
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\BaseDAOJPA.java
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\DAOException.java
 C:\Users\JAVA1\Desktop\proyectos\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\dao\impl\UserDAOImpl.java

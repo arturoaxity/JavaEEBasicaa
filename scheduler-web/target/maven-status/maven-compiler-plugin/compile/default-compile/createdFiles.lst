@@ -1,5 +1,8 @@
 mx\com\cinepolis\schedule\rest\CatalogRest.class
+mx\com\cinepolis\schedule\rest\EmployeMagnamentRest$2.class
 mx\com\cinepolis\schedule\rest\AngularRegisterRest.class
 mx\com\cinepolis\schedule\rest\CatalogRest$2.class
+mx\com\cinepolis\schedule\rest\EmployeMagnamentRest.class
 mx\com\cinepolis\schedule\rest\CatalogRest$1.class
+mx\com\cinepolis\schedule\rest\EmployeMagnamentRest$1.class
 mx\com\cinepolis\schedule\rest\GitHubServiceRest.class
